@@ -1,0 +1,10 @@
+sudo: required
+dist: xenial
+language: java
+arch:
+    - amd64
+    - arm64
+    - ppc64le
+script:
+    - javac TestMath.java
+    - java TestMath
